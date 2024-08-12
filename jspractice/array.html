@@ -17,11 +17,18 @@
         var arr = Array.from(t)
         document.write(arr)
         document.write("<br>")
+
         var f = [30, 50, 100, 1, -4, 6, 60, 80]
-        document.write(f.filter(fun))
+        document.write(f.filter(fun)) //all
+        document.write("<br>")
+
         function fun(item) {
             return item > 50
         }
+        
+        document.write(f.find(fun)) //first
+        document.write("<br>") 
+
 
     </script>
 
