@@ -25,18 +25,29 @@
         function fun(item) {
             return item > 50
         }
-        
+
         document.write(f.find(fun)) //first
         document.write("<br>")
-        
-        function fun1(item){
-            document.write(item," ")
+
+        function fun1(item) {
+            document.write(item, " ")
         }
         f.forEach(fun1)
         document.write("<br>")
 
-        document.write(f.includes(100)," ")
+        document.write(f.includes(100), " ")
         document.write(f.indexOf(100))
+        document.write("<br>")
+
+        array = [1, 2, 3]
+        array.push(100)
+        document.write(array)
+        array.pop()
+        document.write("<br>")
+        document.write(array)
+        document.write("<br>")
+        document.write(array.reverse())
+
     </script>
 
 </body>
