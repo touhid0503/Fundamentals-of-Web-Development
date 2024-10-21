@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+#h2 {
+    color: green;
+    font-weight: 1000;
+}
+
+.p{
+    background-color: gray;
+    text-align: left;
+}
+/* you can use also (*{} -- all) (h1,h2,p{} -- group) */

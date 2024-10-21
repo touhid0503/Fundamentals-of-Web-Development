@@ -1,0 +1,8 @@
+.pos{
+    position: fixed; /*postion:relative, absoulute*/
+    height: 300px;
+    width: 300px;
+    color: red;
+    top:50px;
+    left:50px
+}

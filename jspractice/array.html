@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr1 = [1, 3, 5], arr2 = [2, 4, 6]
+        document.write(arr1.concat(arr2))
+        document.write("<br>")
+        var t = "Touhidul Islam"
+        document.write(t[11], "<br>")
+        var arr = Array.from(t)
+        document.write(arr)
+        document.write("<br>")
+
+        var f = [30, 50, 100, 1, -4, 6, 60, 80]
+        document.write(f.filter(fun)) //all
+        document.write("<br>")
+
+        function fun(item) {
+            return item > 50
+        }
+
+        document.write(f.find(fun)) //first
+        document.write("<br>")
+
+        function fun1(item) {
+            document.write(item, " ")
+        }
+        f.forEach(fun1)
+        document.write("<br>")
+
+        document.write(f.includes(100), " ")
+        document.write(f.indexOf(100))
+        document.write("<br>")
+
+        array = [1, 2, 3]
+        array.push(100)
+        document.write(array)
+        array.pop()
+        document.write("<br>")
+        document.write(array)
+        document.write("<br>")
+        document.write(array.reverse())
+        document.write("<br>")
+
+        var arr2 = [55, 60, 80, 30, , 40]
+        // arr2.sort()
+        document.write(arr2.sort())
+        document.write("<br>")
+        var arr3 = [55, 60, 80, 30, , 40]
+
+        document.write(arr3.slice(1, 3))
+        document.write("<br>")
+        arr3.splice(1, 2, 30)
+        document.write(arr3)
+    </script>
+
+</body>
+
+</html>

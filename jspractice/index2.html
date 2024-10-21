@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = {
+            A: 10,
+            B: "Hi",
+        }
+        document.write(a.A)
+        document.write(a.B)
+        document.write(" ",typeof(a)," ")
+        document.write("<br>")
+
+        for(var i in a){
+            document.write(a[i]," ")
+        }
+        document.write("<br>")
+        var b=[1,2,"hk",-1]
+        document.write(b[3],"<br>")
+        for(var i=0; i<b.length; i++){
+            document.write(b[i]," ")
+        }
+        document.write("<br>")
+
+        for(var i in b){
+            document.write(b[i]," ")
+        }
+    </script>
+</body>
+
+</html>

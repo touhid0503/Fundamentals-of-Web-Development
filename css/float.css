@@ -1,0 +1,13 @@
+#img{
+    float: right;
+    /* float: left, initial, inherit */
+    filter: brightness(80%);
+    filter: blur(2px);
+    /* filter: invert(60); */
+    /* filter: saturate(10); */
+    filter: contrast(50%);
+    filter: opacity(80%);
+    /* filter: hue-rotate(200deg); */
+    filter: grayscale(130%);
+    /* filter: sepia(90%); */
+}

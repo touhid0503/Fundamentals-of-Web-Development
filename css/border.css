@@ -1,0 +1,11 @@
+h1 {
+    border-style: dashed;
+    /* border-style: dotted, solid, double, groove, ridge, inset, outset, hidden */
+}
+
+.my-div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px 20px 10px 20px;
+}

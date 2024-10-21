@@ -1,0 +1,9 @@
+body {
+    background-color: greenyellow;
+    background-image: url("C:/Users/touhi/OneDrive/Desktop/github/web-dev/img/pexels-pixabay-531880.jpg");
+    background-repeat: no-repeat;
+    /* you can also use background-repeat: repeat-x... */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
